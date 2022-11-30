@@ -25,3 +25,9 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_NAME }}
           password: ${{ secrets.DOCKER_ACCESS }}
+      -
+        name: Build and push
+        uses: docker/build-push-action@v3
+        with:
+          push: true
+          tags: kenztaz/ciwithgithub:latest
