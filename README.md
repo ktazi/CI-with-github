@@ -2,11 +2,24 @@
 
 run the code:
 
-    pip install -r reauirements.txt
+    pip install -r requirements.txt
     python app.py
 
-the app runs on http://127.0.0.1:5000
+the app runs on http://localhost:5000
 
 test the app:
 
 python -m unittest 
+
+---
+
+#### Pull the latest image :
+
+`docker pull kenztaz/ciwithgithub`
+
+#### launch the app :
+
+`docker run -p 5000:5000 kenztaz/ciwithgithub`
+
+
+
