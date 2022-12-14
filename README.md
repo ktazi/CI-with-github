@@ -24,5 +24,3 @@ python -m unittest
 
 
 jnqkfjnwkqjnfqkjnf
-efjyfhfhgf
-efwefw
